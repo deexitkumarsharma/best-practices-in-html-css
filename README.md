@@ -253,48 +253,6 @@ Separate each ruleset by a blank line.
 }
 
 ```
-  
-
-Use lowercase and avoid specifying units is zero-values.
-
-  
-
-
-  
-
-**❌ Bad:**
-
-  
-
-```css
-
-.selector-1 {
-
-color: #aaaaaa;
-
-margin: 0px;
-
-}
-
-```
-
-**✅ Good:**
-
-  
-
-```css
-
-.selector-1 {
-
-color: #aaaaaa;
-
-margin: 0;
-
-}
-
-```
-  
-
 ### 2.2 CSS Declaration Order
 
   
@@ -397,14 +355,13 @@ Keep class lowercase and use dashes to separate the classname.
 ```
   
 
-Is a good idea follows a [BEM naming convention](http://getbem.com/introduction/) (Blocks, Elements and Modifiers) to avoid conflicts with other components. If you are using CSS-in-JS like a Styled-Component, you can use BEM if you need to nesting elements inside parent.
+The good naming follows a [BEM naming convention](http://getbem.com/introduction/) (Blocks, Elements and Modifiers) to avoid conflicts with other components. If you are using CSS-in-JS like a Styled-Component, you can use BEM if you need to nesting elements inside parent.
 
   
 
 The main pattern is use single dash to element name, double underline to element block and double dash to style modification.
 
   
-
 
   
 
@@ -443,7 +400,7 @@ The main pattern is use single dash to element name, double underline to element
 .button--active { ... }
 
 ```
-  
+
 
 Dashes and underline serve as natural breaks in related class. Prefix class based on the closest parent or base class.
 
