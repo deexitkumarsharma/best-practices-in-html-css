@@ -157,7 +157,7 @@ The tips above could be used in any CSS framework or preprocessor, like SCSS, St
 
   
 
-- 2.1 [CSS Code Syntax](#21-css-syntax)
+- 2.1 [CSS Syntax](#21-css-syntax)
 
 - 2.2 [CSS Declaration Order](#22-css-declaration-order)
 
